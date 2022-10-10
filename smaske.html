@@ -1,0 +1,166 @@
+<httml>
+    <head>
+        <meta charset="utf-8">
+        <link href="s.css" rel="stylesheet  ">
+        <body>
+            <div id="govde"></div>
+            <div id="ana">
+                <div id="ımage"> <img src="logo.png"></div>
+                <div id="yazı1"><h3>Bu hizmeti kullanarak kendiniz ve aynı hanede bulunan aile bireyleriniz için 20 yaş üstü ve 65 yaş altı olmak<br> koşuluyla ücretsiz maske talebinde bulunabilirsiniz. Sağlıklı günler dileriz.</h3></div>
+            </div>
+            <div id="maske">
+                <div id="maske1">
+                    <div id="a"> <img src="mask1.png"></div>
+                  
+                </div> 
+                 <div id="yazı2">  Beşer Adet<br> Maske</div>
+                <div id="mask2">
+                <div id="avatar2"><img src="mask2.png"></div>
+            </div>
+        </div>
+        <div id="yazı3">Ücretsiz Kargo</div>
+        <div id="mask3">
+            <div id="avatar3"> <img src="mask3.png"></div>
+          
+        </div> 
+         <div id="yazı4">T.C. Kimlik No ile  <br>Sipariş</div>
+
+         <div id="mask4">
+            <div id="avatar4"> <img src="mask4.png"></div>
+          
+        </div> 
+         <div id="yazı5">Aile Bireyleri İçin<br>Sipariş</div>
+         <div id="mask5">
+            <div id="avatar5"> <img src="mask5.png"></div>
+          
+        </div> 
+         <div id="yazı6">Bireysel Sipariş</div>
+         
+         <h1>3 Katlı Cerrahi Maske Başvurusu</h1>
+         <div id="anamenu">
+            <form class="form" name="form1" id="mask-form" action="#" method="post">
+                <h2>
+                  <img src="mask5.png" class="title-icon">
+                  Kimlik Bilgileri
+                </h2>
+        
+                <div id="new-person-form" class="new-person-form form-box">
+                  <div class="form-group">
+                    <label for="input" class="control-label">T.C. Kimlik Numarası *</label>
+                    <input type="text" class="tc" name="person[0][tc]" pattern=".{11}" maxlength="11" title="T.C. kimlik numarası 11 karakter olmalıdır." value="" placeholder="T.C. Kimlik Numaranızı Giriniz" required="required">
+                  </div>
+                  <div class="col-2">
+                    <div class="form-group mr-row">
+                      <label for="input" class="control-label">Ad *
+                      </label>
+                      <input type="text" class="name" name="person[0][name]" maxlength="30" value="" placeholder="Adınızı Giriniz" required="required">
+                    </div>
+                    <div class="form-group">
+                      <label for="input" class="control-label">Soyad *</label>
+                      <input type="text" class="surname" name="person[0][surname]" maxlength="30" value="" placeholder="Soyadınızı Giriniz" required="required">
+                    </div>
+                  </div>
+                  <div class="row text-row remove-person-box" style="display: none;">
+                    <a href="#" class="text-red remove-person delete-person">Bu kişiyi kaldır
+                      <img src="mask4.png">
+                    </a>
+                  </div>
+                </div>
+        
+                <h2>
+                  <img src="https://cdn.e-devlet.gov.tr/themes/ankara/basvuru/images/family.svg" class="title-icon">
+                  Aile Bireyi Bilgileri
+                </h2>
+                <p>Ailenizden Kişi ya da Kişilerin Kimlik Bilgilerini Ekleyin</p>
+                <a href="javascript:" class="add-new-person add-person">
+                  <img src="https://cdn.e-devlet.gov.tr/themes/ankara/basvuru/images/plus.svg">Aile Bireyi Ekle</a>
+                <div class="form-box personal-details"></div>
+        
+                <h2>
+                  <img src="https://cdn.e-devlet.gov.tr/themes/ankara/basvuru/images/home.svg" class="title-icon">
+                  İletişim Bilgileri
+                </h2>
+                <div class="form-box">
+                  <div class="form-group">
+                    <div class="form-group  mr-row">
+                      <label for="input" class="control-label">Cep Telefonu *</label>
+                      <input type="input" class="phone" pattern=".{16}" maxlength="16" title="Telefon numarası (0888) 000 11 22) şeklinde girilmelidir." name="phone" value="" required="">
+                    </div>
+        
+                  </div>
+        
+                  <div class="col-2">
+                    <div class="form-group  mr-row">
+                      <label for="select" class="control-label">İl Seçiniz</label>
+                      <select name="il">
+                        <option value="">İl Seçiniz</option>
+                      <option data-il="1" value="1">ADANA</option><option data-il="2" value="2">ADIYAMAN</option><option data-il="3" value="3">AFYONKARAHİSAR</option><option data-il="4" value="4">AĞRI</option><option data-il="5" value="5">AMASYA</option><option data-il="6" value="6">ANKARA</option><option data-il="7" value="7">ANTALYA</option><option data-il="8" value="8">ARTVİN</option><option data-il="9" value="9">AYDIN</option><option data-il="10" value="10">BALIKESİR</option><option data-il="11" value="11">BİLECİK</option><option data-il="12" value="12">BİNGÖL</option><option data-il="13" value="13">BİTLİS</option><option data-il="14" value="14">BOLU</option><option data-il="15" value="15">BURDUR</option><option data-il="16" value="16">BURSA</option><option data-il="17" value="17">ÇANAKKALE</option><option data-il="18" value="18">ÇANKIRI</option><option data-il="19" value="19">ÇORUM</option><option data-il="20" value="20">DENİZLİ</option><option data-il="21" value="21">DİYARBAKIR</option><option data-il="22" value="22">EDİRNE</option><option data-il="23" value="23">ELAZIĞ</option><option data-il="24" value="24">ERZİNCAN</option><option data-il="25" value="25">ERZURUM</option><option data-il="26" value="26">ESKİŞEHİR</option><option data-il="27" value="27">GAZİANTEP</option><option data-il="28" value="28">GİRESUN</option><option data-il="29" value="29">GÜMÜŞHANE</option><option data-il="30" value="30">HAKKARİ</option><option data-il="31" value="31">HATAY</option><option data-il="32" value="32">ISPARTA</option><option data-il="33" value="33">MERSİN</option><option data-il="34" value="34">İSTANBUL</option><option data-il="35" value="35">İZMİR</option><option data-il="36" value="36">KARS</option><option data-il="37" value="37">KASTAMONU</option><option data-il="38" value="38">KAYSERİ</option><option data-il="39" value="39">KIRKLARELİ</option><option data-il="40" value="40">KIRŞEHİR</option><option data-il="41" value="41">KOCAELİ</option><option data-il="42" value="42">KONYA</option><option data-il="43" value="43">KÜTAHYA</option><option data-il="44" value="44">MALATYA</option><option data-il="45" value="45">MANİSA</option><option data-il="46" value="46">KAHRAMANMARAŞ</option><option data-il="47" value="47">MARDİN</option><option data-il="48" value="48">MUĞLA</option><option data-il="49" value="49">MUŞ</option><option data-il="50" value="50">NEVŞEHİR</option><option data-il="51" value="51">NİĞDE</option><option data-il="52" value="52">ORDU</option><option data-il="53" value="53">RİZE</option><option data-il="54" value="54">SAKARYA</option><option data-il="55" value="55">SAMSUN</option><option data-il="56" value="56">SİİRT</option><option data-il="57" value="57">SİNOP</option><option data-il="58" value="58">SİVAS</option><option data-il="59" value="59">TEKİRDAĞ</option><option data-il="60" value="60">TOKAT</option><option data-il="61" value="61">TRABZON</option><option data-il="62" value="62">TUNCELİ</option><option data-il="64" value="64">UŞAK</option><option data-il="63" value="63">ŞANLIURFA</option><option data-il="65" value="65">VAN</option><option data-il="66" value="66">YOZGAT</option><option data-il="67" value="67">ZONGULDAK</option><option data-il="68" value="68">AKSARAY</option><option data-il="69" value="69">BAYBURT</option><option data-il="70" value="70">KARAMAN</option><option data-il="71" value="71">KIRIKKALE</option><option data-il="72" value="72">BATMAN</option><option data-il="73" value="73">ŞIRNAK</option><option data-il="74" value="74">BARTIN</option><option data-il="75" value="75">ARDAHAN</option><option data-il="76" value="76">IĞDIR</option><option data-il="77" value="77">YALOVA</option><option data-il="78" value="78">KARABÜK</option><option data-il="79" value="79">KİLİS</option><option data-il="80" value="80">OSMANİYE</option><option data-il="81" value="81">DÜZCE</option></select>
+                    </div>
+                    <div class="form-group">
+                      <label for="select2" class="control-label">İlçe Seçiniz</label>
+                      <select name="ilce">
+                        <option value="">Lütfen Önce İl Seçiniz</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="form-group mr-row">
+                      <label for="input" class="control-label">Mahalle / Köy *
+                      </label>
+                      <input type="text" title="Mahalle / Köy" class="mahalle" name="mahalleKoy" value="" placeholder="Mahalle / Köy Giriniz" required="required">
+                    </div>
+                    <div class="form-group">
+                      <label for="input" class="control-label">Cadde / Sokak *</label>
+                      <input type="text" class="sokak" name="caddeSokak" value="" placeholder="Cadde / Sokak Giriniz" required="required">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="textarea" class="control-label">Adres *</label>
+                    <textarea name="adres" rows="3" class="adres" required="required"></textarea>
+                  </div>
+                  <p>
+                    Adresin eksik veya hatalı girilmesi durumunda siparişiniz teslim edilemeyeceğinden adresinizi tam ve doğru olarak girmeniz gerekmektedir.
+                  </p>
+                  <h3>
+                    Güvenlik Sorusu</h3>
+                  <div class="form-group" id="captcha">
+                    <canvas class="jCaptchaText" width="80" height="26"></canvas><input type="text" id="captchaText" name="captchaText" value="" class="jCaptcha" required="required">
+                    <div class="captcha-refresh">
+                      <a href="javascript:">
+                        <img src="https://cdn.e-devlet.gov.tr/themes/ankara/basvuru/images/refresh.svg">
+                      </a>
+                    </div>
+                    <div class="form-help">Yukarıdaki güvenlik sorusu sonucunu giriniz.</div>
+                  </div>
+        
+                </div>
+                <div class="form-group text-row remove-person-box" style="display: none;">
+                  Girdiğiniz bilgiler ile alabileceğiniz adet:&nbsp;<b>
+                    <span class="count">1</span>
+                    Paket</b>
+                </div>
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" id="aydinlatma" name="aydinlatma" value="1" required="">
+                      <i class="helper"></i>
+                      <span class="checkbox-link">
+                        <strong>Aydınlatma metni</strong></span>ni okudum
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label><input type="checkbox" name="rules" value="1" required="required">
+                      <i class="helper"></i>Yukarıda verdiğim bilgilerin doğruluğunu kabul ediyorum. Bu sayfada belirttiğim adres bilgisinin teslimat için yeterli olmaması durumunda, MERNİS sistemindeki adres bilgilerimin bu amaçla kullanılmasını kabul ediyorum.
+                    </label>
+                  </div>
+                </div>
+              </form>
+                
+         </div>
+         
+
+        </body>
+    </head>
+</httml>

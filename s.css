@@ -1,0 +1,364 @@
+body{    
+    background-color:#F7F8F9;); 
+    
+}
+#govde{
+    height: 100px;
+    margin-top: 0px;
+    padding: 10px;
+    font:50;
+    border: solid 2px black(12, 11, 11);
+   
+    
+}
+#ımage{
+    height: 350px;
+    width: 400px;
+    Text-align:left;
+    position: absolute;
+    left: 450px;
+    top: 80px;
+    z-index:1;
+}
+#yazı1{
+    font: 100px;
+    color:black;
+    font-family:"Trebuchet MS", Tahoma, Arial, sans-serif;
+    font-size:9px;
+    font-weight:100;
+    font-variant:normal;
+    text-transform:none;
+    text-align:start;
+    text-indent:0px;
+    position: absolute;
+    left: 450px;
+    top: 150px;
+    z-index: 0;
+}
+#maske{
+    display: flex;
+    margin: 0.5rem 0 1rem;
+    justify-content: space-around;
+}
+#maske1{
+    
+    text-indent:0px;
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    background: #FFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    overflow: hidden;
+   
+}
+
+#a{
+    color:black;
+    width: 85px;
+    height: 85px;
+    margin: 28px auto;
+    display: block;
+    text-indent:0px;
+    text-align: center;
+    
+}
+#yazı2{
+    font: 100px;
+    color:BDBDBD;
+    
+    font-size:10px;
+    font-weight:300;
+    font-variant:normal;
+    text-transform:none;
+    text-align:start;
+    text-indent:0px;
+    position: absolute;
+    left: 470px;
+    top: 290px;
+    z-index: 0;
+}
+#mask2{
+    
+    text-indent:0px;
+    position: absolute;
+    left: 550px;
+    top: 200px;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    background: #FFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    overflow: hidden;
+   
+}
+
+#avatar2{
+   
+    width: 85px;
+    height: 85px;
+    margin: 28px auto;
+    display: block;
+    text-indent:0px;
+    text-align: center;
+    
+}
+#yazı3{
+    font: 100px;
+    color:BDBDBD;
+    font-size:10px;
+    font-weight:300;
+    font-variant:normal;
+    text-transform:none;
+    text-align:start;
+    text-indent:0px;
+    position: absolute;
+    left: 560px;
+    top: 290px;
+    z-index: 0;
+}
+#mask3{
+    
+    text-indent:0px;
+    position: absolute;
+    left: 650px;
+    top: 200px;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    background: #FFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    overflow: hidden;
+   
+}
+
+#avatar3{
+   
+    width: 85px;
+    height: 85px;
+    margin: 28px auto;
+    display: block;
+    text-indent:0px;
+    text-align: center;
+    
+}
+#yazı4{
+    font: 100px;
+    color:BDBDBD;
+    
+    font-size:10px;
+    font-weight:300;
+    font-variant:normal;
+    text-transform:none;
+    text-align:start;
+    text-indent:0px;
+    position: absolute;
+    left: 660px;
+    top: 290px;
+    z-index: 0;
+}
+#mask4{
+    
+    text-indent:0px;
+    position: absolute;
+    left: 750px;
+    top: 200px;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    background: #FFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    overflow: hidden;
+   
+}
+
+#avatar4{
+   
+    width: 85px;
+    height: 85px;
+    margin: 28px auto;
+    display: block;
+    text-indent:0px;
+    text-align: center;
+    
+}
+#yazı5{
+    font: 100px;
+    color:BDBDBD;
+    
+    font-size:10px;
+    font-weight:300;
+    font-variant:normal;
+    text-transform:none;
+    text-align:start;
+    text-indent:0px;
+    position: absolute;
+    left: 760px;
+    top: 290px;
+    z-index: 0;
+}
+#mask5{
+    
+    text-indent:0px;
+    position: absolute;
+    left: 850px;
+    top: 200px;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    background: #FFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    overflow: hidden;
+   
+}
+
+#avatar5{
+   
+    width: 85px;
+    height: 85px;
+    margin: 28px auto;
+    display: block;
+    text-indent:0px;
+    text-align: center;
+    
+}
+#yazı6{
+    font: 100px;
+    color:BDBDBD;
+    
+    font-size:10px;
+    font-weight:300;
+    font-variant:normal;
+    text-transform:none;
+    text-align:start;
+    text-indent:0px;
+    position: absolute;
+    left: 860px;
+    top: 290px;
+    z-index: 0;
+}
+h1 {
+    color: #3C97D3;
+    font-size: 1.6rem;
+    margin: 170px auto;
+    position: absolute;
+    left: 460px;
+     z-index: 0;
+     font-family: 'Helvetica', sans-serif;
+    box-sizing: border-box;
+    }
+#anamenu{
+    
+    position: relative;
+    max-width: 30rem;
+    background: #fff;
+    width: 100%;
+    height:2500px;
+    left: 450px;
+    padding: 2rem;
+    border-radius: 2px;
+    margin: 230px 0;
+}
+h2{
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    
+    .form-box {
+        position: relative;
+        border-bottom: 1px solid rgb(179, 179, 179);
+        margin-bottom: 1rem;
+        text-shadow: 0 0 black;
+    }
+ .form-group {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .form-group input {
+        display: block;
+    background: #F9F9F9;
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    line-height: 1.6;
+    width: 100%;
+    color: #000;
+    -webkit-transition: all 0.28s ease;
+    transition: all 0.28s ease;
+    box-shadow: none;
+    height: 44px;
+}
+.form-group select {
+    width: 100%;
+    font-size: 1rem;
+    border: 1px solid #E5E5E5;
+    background: #F9F9F9;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    line-height: inherit;
+    -webkit-appearance: none;
+    box-shadow: none;
+    height: 44px;
+    
+    background-repeat: no-repeat!important;
+    background-position: right .7em top 50%!important;
+    background-size: 1.5em auto!important;
+}
+
+.form-group .control-label {
+        pointer-events: none;
+        padding-left: 0.125rem;
+        z-index: 1;
+        display: block;
+        padding-bottom: 0.25rem;
+        color: #3D3D3D;
+        font-weight: bold;
+        font-size: 0.8rem;
+}
+
+.col-2 {
+    display: flex;
+}
+.form-group textarea {
+    display: block;
+    background: #F9F9F9;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    line-height: 1.6;
+    width: 100%;
+    color: #000;
+    -webkit-transition: all 0.28s ease;
+    transition: all 0.28s ease;
+    box-shadow: none;
+}
+p {
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 1.2rem;
+}
+
+.checkbox label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 2rem;
+    /* text-align: left; */
+    color: #333;
+    font-size: 0.8rem;
+    display: block;
+}
